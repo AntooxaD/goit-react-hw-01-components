@@ -6,13 +6,9 @@ export default function FriendListItem({ name, avatar, isOnline }) {
     return (
         <li clasName={style.item}>
             {isOnline ? (
-                <span className={style.status && style['status--online']}>
-                    {isOnline}
-                </span>
+                <span className={style['status--online']}>{isOnline}</span>
             ) : (
-                <span className={style.status && style['status--offline']}>
-                    {isOnline}
-                </span>
+                <span className={style['status--offline']}>{isOnline}</span>
             )}
 
             <img

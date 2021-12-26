@@ -1,10 +1,10 @@
 .friend-list {
     font-family: Roboto;
     display: block;
-    width: 200px;
+    width: 400px;
     text-align: center;
-    background-color: #fff;
-    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
     margin: 0 auto 20px;
 }
 
@@ -12,8 +12,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #b1b1b138;
+    background-color: rgb(153, 253, 153);
     padding: 10px;
+    border: 15px;
+    border-color: rgb(0, 104, 5);
 }
 
 .item:not(:last-child) {

@@ -5,7 +5,7 @@
 }
 table {
     border-spacing: 0;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.5);
 }
 table td {
     border-bottom: 1px solid rgb(201, 201, 201);
@@ -22,7 +22,7 @@ table th {
     background-color: rgb(145, 233, 255);
     color: #fff;
 }
-table th:nth-last-child(n-1) {
+table th:nth-child(-n + 2) {
     border-right-color: #fff;
 }
 table tr:nth-child(2n) {

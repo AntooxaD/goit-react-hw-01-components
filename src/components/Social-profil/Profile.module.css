@@ -2,8 +2,45 @@
     font-family: Roboto;
     display: block;
     width: 300px;
+
+    padding-top: 30px;
     text-align: center;
     background-color: #fff;
-    padding: 15px;
-    margin: 0 auto 20px;
+    margin: 30px auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.tag {
+    color: rgb(180, 182, 182);
+    margin-bottom: 10px;
+}
+.location {
+    color: rgb(180, 182, 182);
+    margin-bottom: 30px;
+}
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    margin: 40px auto;
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+    background-color: #cbecff;
+}
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+    width: calc(100% / 3);
+    border-top: 1px solid #96a3b3;
+}
+li + li {
+    border-left: 1px solid #96a3b3;
 }

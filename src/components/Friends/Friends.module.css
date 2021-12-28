@@ -1,21 +1,24 @@
 .friend-list {
     font-family: Roboto;
     display: block;
-    width: 400px;
+    width: 300px;
     text-align: center;
     background-color: rgb(255, 255, 255);
     padding: 5px;
-    margin: 0 auto 20px;
+    margin: 30px auto;
 }
 
 .item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    border-radius: 2px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(153, 253, 153);
+    flex-direction: row;
     padding: 10px;
-    border: 15px;
-    border-color: rgb(0, 104, 5);
+    align-items: center;
+    justify-content: left;
+    background-color: #fff;
 }
 
 .item:not(:last-child) {
@@ -42,6 +45,7 @@
 .avatar {
     width: 48px;
     margin-right: 20px;
+    margin-left: 30px;
 }
 
 .name {

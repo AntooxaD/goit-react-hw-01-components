@@ -14,7 +14,7 @@ export default function Profile({
 }) {
     return (
         <div className={style.profile}>
-            <div class={style.description}>
+            <div className={style.description}>
                 <img src={avatar} alt={username} className={style.avatar} />
                 <p className={style.name}>{username}</p>
                 <p className={style.tag}>@{tag}</p>
@@ -43,5 +43,5 @@ Profile.propTypes = {
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
-    stats: PropTypes.objectOf(PropTypes.number).isRequired
+    stats: PropTypes.objectOf(PropTypes.number).isRequired,
 };
